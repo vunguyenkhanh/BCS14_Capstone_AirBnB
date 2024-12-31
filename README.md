@@ -23,7 +23,7 @@ Welcome to our AirBnB clone! Follow these simple steps to explore and book amazi
 
 ### 1. Visit Our Website
 
-Navigate to our website at ... .
+Navigate to our website at https://bcs14-capstone-airbnb.vercel.app.
 
 ### 2. Explore Listings
 
@@ -80,7 +80,7 @@ We hope you have a wonderful time using our AirBnB clone!
 
 ## Installation
 
-1. Clone the repository: `git clone `
+1. Clone the repository: `git clone https://github.com/vunguyenkhanh/BCS14_Capstone_AirBnB.git`
 2. Navigate to the project directory: `cd BCS14_Capstone_AirBnB`
 3. Install dependencies: `npm install`
 4. Run `npm run dev` (not `npm start`) to enjoy our website
@@ -99,9 +99,7 @@ We hope you have a wonderful time using our AirBnB clone!
 
 🌟 Swagger API: https://airbnbnew.cybersoft.edu.vn/swagger/index.html
 
-🌟 Youtube preview: ...
-
-🌟 You can also view our AirBnB back-end project: ...
+🌟 Youtube preview: https://youtu.be/q_0smfcCCSE
 
 ##
 

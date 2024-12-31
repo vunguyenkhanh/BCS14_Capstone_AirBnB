@@ -4,7 +4,8 @@ import { useEffect, useRef, useState } from 'react';
 import { RemoveScrollBar } from 'react-remove-scroll-bar';
 import { Link } from 'react-router-dom';
 
-const phoneAdImg = '../../public/images/phoneairbnb.jpg';
+const phoneAdImg =
+  'https://github.com/vunguyenkhanh/BCS14_Capstone_AirBnB/blob/main/public/images/phoneairbnb.jpg?raw=true';
 const adContent = (
   <div className="space-y-6 py-6">
     <h1 className="font-bold text-3xl text-center">Tìm các phòng được yêu thích</h1>
