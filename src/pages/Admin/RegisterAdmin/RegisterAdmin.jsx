@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
-import AlertModal from "./AlertModal";
+import React, { useEffect } from 'react';
+import AlertModal from './AlertModal';
 
 const RegisterAdmin = () => {
   useEffect(() => {
-    document.title = "Airbnb - Admin - Đăng ký";
+    document.title = 'AirBnB - Admin - Đăng ký';
   }, []);
   return (
     <>
@@ -30,18 +30,14 @@ const RegisterAdmin = () => {
                   Create account
                 </h1>
                 <label className="block text-sm">
-                  <span className="text-gray-700 dark:text-gray-400">
-                    Email
-                  </span>
+                  <span className="text-gray-700 dark:text-gray-400">Email</span>
                   <input
                     className="block w-full mt-1 text-sm  border-[1px] p-2 rounded-md dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
                     placeholder="Jane Doe"
                   />
                 </label>
                 <label className="block mt-4 text-sm">
-                  <span className="text-gray-700 dark:text-gray-400">
-                    Password
-                  </span>
+                  <span className="text-gray-700 dark:text-gray-400">Password</span>
                   <input
                     className="block w-full mt-1 text-sm  border-[1px] p-2 rounded-md dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
                     placeholder="***************"
@@ -49,9 +45,7 @@ const RegisterAdmin = () => {
                   />
                 </label>
                 <label className="block mt-4 text-sm">
-                  <span className="text-gray-700 dark:text-gray-400">
-                    Confirm password
-                  </span>
+                  <span className="text-gray-700 dark:text-gray-400">Confirm password</span>
                   <input
                     className="block w-full mt-1 text-sm  border-[1px] p-2 rounded-md dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
                     placeholder="***************"

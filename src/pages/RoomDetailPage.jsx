@@ -548,7 +548,7 @@ export default function RoomDetailPage() {
                   <p className="text-sm text-gray-600 text-justify space-x-1">
                     <span>
                       Chủ nhà này đã cam kết thực hiện quy trình vệ sinh tăng cường 5 bước của
-                      Airbnb.
+                      AirBnB.
                     </span>
                     {!hienThiVeSinh && (
                       <span

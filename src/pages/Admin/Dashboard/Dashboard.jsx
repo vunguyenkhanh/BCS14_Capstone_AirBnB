@@ -1,16 +1,16 @@
-import React, { useEffect } from "react";
-import CTA from "./CTA";
-import LoadingPage from "../../../components/admin/LoadingPage/LoadingPage";
-import UserList from "../../../components/admin/UserTable/UserList";
-import HeadingAdmin from "../../../components/admin/HeadingAdmin/HeadingAdmin";
-import CardAdmin from "../../../components/admin/CardAdmin/CardAdmin";
-import ChartAdmin from "../../../components/admin/ChartAdmin/ChartAdmin";
-import RoomList from "../../../components/admin/RoomTable/RoomList";
-import LocationList from "../../../components/admin/LocationTable/LocationList";
+import React, { useEffect } from 'react';
+import CTA from './CTA';
+import LoadingPage from '../../../components/admin/LoadingPage/LoadingPage';
+import UserList from '../../../components/admin/UserTable/UserList';
+import HeadingAdmin from '../../../components/admin/HeadingAdmin/HeadingAdmin';
+import CardAdmin from '../../../components/admin/CardAdmin/CardAdmin';
+import ChartAdmin from '../../../components/admin/ChartAdmin/ChartAdmin';
+import RoomList from '../../../components/admin/RoomTable/RoomList';
+import LocationList from '../../../components/admin/LocationTable/LocationList';
 
 const Dashboard = () => {
   useEffect(() => {
-    document.title = "Airbnb - Admin";
+    document.title = 'AirBnB - Admin';
   }, []);
   return (
     <>
@@ -39,7 +39,7 @@ const Dashboard = () => {
           <ChartAdmin />
         </div>
       </main>
-      <LoadingPage title={"Dashboard"} />
+      <LoadingPage title={'Dashboard'} />
     </>
   );
 };
